@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass on the Message</title>
+</head>
+
+<style>
+    body{
+        background: rgb(73, 177, 247);
+    }
+    .container{
+        display: grid;
+        place-items: center;
+    }
+
+    /* to hide the query untill a string is entered */
+    .query{
+        display: none;
+    }
+    .show{
+        display: block;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>A message you'd like to pass</h1>
+        <form action="" id="form-message">
+            <input type="text" id="message">
+            <input type="submit" id="submit">
+        </form>
+
+        <h4 class="query">please enter a value to pass</h4>
+        <br>
+        <h5>Last message delivered-</h5>
+        <h3 class="message-content"></h3>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
